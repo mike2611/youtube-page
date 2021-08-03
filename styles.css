@@ -151,16 +151,16 @@ input{
     width: 31%;
 }
 
-#video-thumbnail{
+.video-thumbnail{
     display: flex;
     flex-direction: row;
 }
 
-#video-thumbnail a {
+.video-thumbnail a {
     padding-right: 15px;
 }
 
-#video-thumbnail h4{
+.video-thumbnail h4{
     font-family: 'Roboto','Arial', 'sans-serif';
     text-align:left;
     margin: 0;
@@ -169,11 +169,11 @@ input{
     font-style: none;
 }
 
-#video-description{
+.video-description{
     position: static;
 }
 
-#video-description span{
+.video-description span{
     font-family: 'Roboto','Arial', 'sans-serif';
     font-size: 12px;
 }
@@ -311,10 +311,32 @@ button{
     padding-right: 10px;
 }
 
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+.parent img{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.parent span{
+  background-color: black;
+  color: white;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 550;
+  bottom: 8px;
+  right: 5px;
+}
+  
 
 @media (min-width: 0px) and (max-width: 1100px)  {
-    #video-description span{ display: none; }
-    #video-description h4 {font-size: 12px;}
+    .video-description span{ display: none; }
+    .video-description h4 {font-size: 12px;}
     #visits{padding-right: 18%;}
     #channel-name{padding-right: 30%;}
 
