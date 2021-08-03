@@ -11,6 +11,10 @@ body {
     color: #AAAAAA;
 }
 
+.blue-icon{
+    color: #36A6FF;
+}
+
 #search-icon{
     color: rgb(150, 146, 146);
 }
@@ -94,13 +98,13 @@ input{
 }
 
 #video-frame{
-    padding: 20px 0 0 15%;
+    padding: 20px 0 0 4%;
     margin-right: 0;
     position: static;
 }
 
 #general-info{
-    padding-left: 15%;
+    padding-left: 4%;
 }
 
 #general-info h2{
@@ -111,12 +115,12 @@ input{
     padding-left: 0;
     padding-bottom: 10px;
     align-items: center;
-    border-bottom: 1px solid #7a757588;
-    width: 61%;
+    border-bottom: 1px solid #69656563;
+    width: 66%;
 }
 
 #visits{
-    padding-right: 32%;
+    padding-right: 37%;
     font-size: 14px;
     font-family: 'Roboto','Arial', 'sans-serif';
     font-size: 14px;
@@ -143,7 +147,7 @@ input{
     display: block;
     position: absolute;
     margin-top: 20px;
-    padding-left: 910px;
+    padding-left: 68%;
     width: 31%;
 }
 
@@ -169,13 +173,6 @@ input{
     position: static;
 }
 
-  
-@media (min-width: 0px) and (max-width: 1100px)  {
-    #video-description span{ display: none; }
-    #video-description h4 {font-size: 12px;}
-
-}
-
 #video-description span{
     font-family: 'Roboto','Arial', 'sans-serif';
     font-size: 12px;
@@ -196,13 +193,13 @@ input{
 
 #channel-description{
     font-family: 'Roboto','Arial', 'sans-serif';
-    padding: 0 0 10px 10%;
+    padding: 0 0 10px 3%;
 }
 
 #user-description{
     display: flex;
     flex-direction: row;
-    padding: 35px 0 10px 15%;
+    padding: 35px 0 10px 4%;
 }
 
 button{
@@ -219,7 +216,7 @@ button{
 }
 
 #channel-name{
-    padding: 9px 370px 0 10px;
+    padding: 9px 38% 0 10px;
 }
 
 #subscribers{
@@ -231,13 +228,16 @@ button{
     padding-top: 9px;
 }
 
+#commentaries{
+    width: 63%;
+    margin-left: 4%;
+}
+
 #commentaries-info{
     font-family: 'Roboto','Arial', 'sans-serif';
     display: flex;
     flex-direction: row;
-    border-top: 1px solid #7a757588;
-    width: 690px;
-    margin-left: 15%;
+    border-top: 1px solid #69656563;
 }
 
 #commentaries-info h4{
@@ -253,4 +253,78 @@ button{
 #commentaries-info p{
     padding-top: 8px;
     font-size: 14px;
+}
+
+#add-comment {
+    display: flex;
+    flex-direction: row;
+}
+
+#commentaries img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+#add-comment input{
+    border:none;
+    border-bottom:1px solid #69656563;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+#comments{
+    font-family: 'Roboto','Arial', 'sans-serif';
+}
+
+#comments img{
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
+#profile{
+    display: flex;
+    flex-direction: row;
+}
+
+#profile div{
+    font-size: 13px;
+    padding-top: 41px;
+}
+
+#comment{
+    padding-top: 5px;
+    font-size: 14px;
+    margin-top: 0;
+}
+
+#comment-likes {
+    font-size: 13px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+}
+
+#comment-likes i{
+    font-size: 16px;
+    padding-right: 10px;
+}
+
+
+@media (min-width: 0px) and (max-width: 1100px)  {
+    #video-description span{ display: none; }
+    #video-description h4 {font-size: 12px;}
+    #visits{padding-right: 18%;}
+    #channel-name{padding-right: 30%;}
+
+}
+
+@media (min-width: 0px) and (max-width: 880px)  {
+    #section-video{display: none;}
+    #commentaries{width: 80%;}
+    #general-info ul{width: 70%; border-bottom: none;}
+    iframe{width: 100%;}
+    #visits{padding-right: 30%;}
+    #channel-name{padding-right: 38%;}
 }
