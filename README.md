@@ -1,6 +1,6 @@
 # youtube-page
 
-![Page Screenshot](/images/PageScreenshot.png?raw=true "Page Screenshot")
+![Page Screenshot](/images/favicon.png?raw=true "Page Screenshot")
 
 
 Link to the page:
