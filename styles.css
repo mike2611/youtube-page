@@ -120,7 +120,7 @@ input{
 }
 
 #visits{
-    padding-right: 37%;
+    padding-right: 44%;
     font-size: 14px;
     font-family: 'Roboto','Arial', 'sans-serif';
     font-size: 14px;
@@ -144,10 +144,8 @@ input{
 }
 
 #section-video{
-    display: block;
-    position: absolute;
+    float: right;
     margin-top: 20px;
-    padding-left: 68%;
     width: 31%;
 }
 
@@ -216,7 +214,7 @@ button{
 }
 
 #channel-name{
-    padding: 9px 38% 0 10px;
+    padding: 9px 63% 0 10px;
 }
 
 #subscribers{
@@ -337,8 +335,8 @@ button{
 @media (min-width: 0px) and (max-width: 1100px)  {
     .video-description span{ display: none; }
     .video-description h4 {font-size: 12px;}
-    #visits{padding-right: 18%;}
-    #channel-name{padding-right: 30%;}
+    #visits{padding-right: 16%;}
+    #channel-name{padding-right: 45%;}
 
 }
 
@@ -347,6 +345,6 @@ button{
     #commentaries{width: 80%;}
     #general-info ul{width: 70%; border-bottom: none;}
     iframe{width: 100%;}
-    #visits{padding-right: 30%;}
-    #channel-name{padding-right: 38%;}
+    #visits{padding-right: 41%;}
+    #channel-name{padding-right: 60%;}
 }
