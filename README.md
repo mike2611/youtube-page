@@ -9,7 +9,7 @@
  
 ## Built With
 
-- HtML, CSS, JS
+- HtML, CSS
 - VSCode
 
 ## Live Demo
