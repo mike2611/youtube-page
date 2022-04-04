@@ -13,7 +13,7 @@
 - VSCode
 
 ## Live Demo
-Link -> https://mike2611.github.io/youtube-page/
+https://mike2611.github.io/youtube-page/
 
 ## Authors
 
